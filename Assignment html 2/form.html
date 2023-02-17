@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Survey Form</title> 
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Survey from TMAX Prog
+            </h1>
+            <p id="description">
+                Thank you for taking your time to help us to improve the platform
+            </p>
+        </header>
+        <form action="" id="survey-form">
+            <!--Text section  -->
+            <diva class="form group">
+                <label for="name">Name</label>
+                <input type="text"
+                name="name" id="name"
+                class="formcontrol"
+                placeholder="Enter your name" required><br><br>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type email section -->
+            <diva class="form group">
+                <label for="email">Email</label>
+                <input type="email"
+                name="email" id="email"
+                class="formcontrol"
+                placeholder="Enter your email" required><br><br>
+            </div>
+            <!-- end of type  email section -->
+            <!-- type number section -->
+            <diva class="form group">
+                <label for="phone">Phone number</label>
+                <input type="number"
+                name="phone" id="phone"
+                class="formcontrol"
+                placeholder="Enter your phone number" required><br><br>
+            </div>
+            <!-- end of number section -->
+
+            <!-- Address section -->
+            <diva class="form group">
+                <label for="address">Address
+                <span class="clue">(optional)</span></label>
+                <input type="text"
+                name="address" id="address"
+                class="formcontrol"
+                placeholder="Enter your address" required><br><br>
+            </div>
+
+            <!-- end address section -->
+            <!-- select selection -->
+            <div class="form group">
+                <p id="quest">which option best describe your current role ?</p>
+                <select name="role" id="dropdown" class="formcontrol" required>
+                    <option valuel=""disable selected>select current role</option>
+                    <option value="student">student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="job">Job</option>
+                    <option value="other">other</option>
+
+                </select>
+            </div>
+            <!-- end of select section -->
+
+            <!-- radio button section -->
+            <div class ="form-group">
+                <p id="quest">How you come to know about Tmax Prog</p>
+                <label for="">
+                    <input type="radio" name="source" valuel="friends" class="inputRadio" checked>friends
+                </label><br><br>
+                <label for="">
+                    <input type="radio" name="source" valuel="social media" class="inputRadio" checked>socia media
+                </label><br><br>
+                <label for="">
+                    <input type="radio" name="source" valuel="Tv ads" class="inputRadio" checked>Tv ads
+                </label><br><br>
+                <label for="">
+                    <input type="radio" name="source" valuel="newspaper" class="inputRadio" checked>newspaper
+                </label><br><br>
+                <label for="">
+                    <input type="radio" name="source" valuel="other" class="inputRadio" checked>other
+                </label><br><br>
+            </div>
+            <!-- end of radio button section -->
+
+            <!-- checkbox section -->
+            <div class="form-group">
+                <p id="qust">would you like to be improved</p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkebox" value="back-end-dev">Back-end developer
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkebox" value="front-end-dev">front-end developer
+                </label>
+                 <label for="">
+                    <input type="checkbox" name="prefer" class="checkebox" value="Androind">Androin
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkebox" value="soft engineer">soft engineer
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkebox" value="other">other
+                </label>
+            </div>
+            <!-- end of checkbox section -->
+
+            <!-- Textarea section -->
+            <div class="form-group">
+                <p id="quest">Gives us your feedback</p>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter your feedback here..."></textarea>
+            </div>
+            <!-- end of textarea -->
+
+            <!-- submit button -->
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

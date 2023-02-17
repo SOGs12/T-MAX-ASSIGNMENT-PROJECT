@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100%;
+    height: 500px;
+    background-image: url(Image/christmas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:relative
+}
+section{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: teal;
+    border-radius: 50%;
+}
+nav{
+    height: 50px;
+    background-color: #008000 8, 83 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display:flex
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+nav ul li a:hover{
+    color:red;
+    font-weight: bolder;
+}
+nav h2 a{
+    color: black;
+    text-decoration: none;
+}
+nav h2 span{
+    color: red;
+}
+div h1{
+    font-size: 100px;
+    margin-top: 200px;
+    position:absolute;
+    color: red;
+    margin-left: 50px;
+}
+div h1 span{
+    color: green 8, 83, 0:;
+}
